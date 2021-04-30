@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Ubuntu",  -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #293d61;
+}
+
+.App{
+  background: #0a192f;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+}
+
+.nav{
+  padding: 10px 20px;
+  text-align: center;
+  background: #112240;
+}
+
+.nav, h3{
+  margin: 10px 0;
+}
+
+.len-span{
+  font-weight: 700;
+  color: #64ffda;
+}
+
+.todos-list{
+  margin: 20px;
+}
+
+.todos-list ul{
+  padding: 10px;
+  list-style-type: none;
+}
+
+.todos-list li{
+  background: #112240;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.todos-list li:hover{
+  opacity: 0.7;;
+}
+
+.title{
+  position: relative;
+}
+
+.todos-list .title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.empty{
+  margin: 20px;
+  text-align: center;
+  color: rgb(179, 179, 179);
+  font-size: 13px;
+}
+
+.form{
+  padding: 20px;
+}
+
+input[type='text']{
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #233554;
+  color: #fff;
+  border: 0;
+}
+
+.submit-btn{
+  cursor: pointer;
+  background:  #64ffda;
+  margin-top: 10px;
+  margin-left: 50%;
+} 
+
+.submit-btn, .sub-icon{
+  color: #050e18 !important;
+}
+
+.delete-btn{
+  cursor: pointer;
+  background: #64ffda !important;
+  position: absolute;
+  right: 0;
+  top: -6px;
+}
+
+.delete-btn, .del-icon{
+  color: #050e18 !important;
+}
